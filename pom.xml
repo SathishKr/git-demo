@@ -39,7 +39,7 @@
 	<distributionManagement>
 			<repository>
 				<id>Repo</id>
-				<url>file:D:/DevArea/JavaWork/maven/HelloWorld/</url>
+				<url>file:D:/DevArea/JavaWork/maven/Repo/</url>
 			</repository>
 		</distributionManagement>
 	</project>

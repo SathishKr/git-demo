@@ -16,9 +16,9 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<connection>scm:https://github.com/SathishKr/git-demo.git</connection>
-		<url>scm:https://github.com/SathishKr/git-demo.git</url>
-		<developerConnection>scm:https://github.com/SathishKr/git-demo.git</developerConnection>
+		<connection>scm:git:git@github.com:SathishKr/git-demo.git</connection>
+		<url>scm:git:git@github.com:SathishKr/git-demo.git</url>
+		<developerConnection>scm:git:git@github.com:SathishKr/git-demo.git</developerConnection>
 	</scm>
 	<build>
 		<plugins>

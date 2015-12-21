@@ -3,7 +3,7 @@
 	<groupId>com.infy.sats</groupId>
 	<artifactId>HelloWorld</artifactId>
 	<packaging>jar</packaging>
-	<version>2.2</version>
+	<version>2.3-SNAPSHOT</version>
 	<name>HelloWorld</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -18,7 +18,7 @@
 		<connection>scm:git:https://github.com/SathishKr/git-demo.git</connection>
 		<url>scm:git:https://github.com/SathishKr/git-demo.git</url>
 		<developerConnection>scm:git:https://github.com/SathishKr/git-demo.git</developerConnection>
-		<tag>HelloWorld-2.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<build>
 		<plugins>

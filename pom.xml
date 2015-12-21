@@ -18,8 +18,8 @@
 		<connection>scm:git:git@github.com:SathishKr/git-demo.git</connection>
 		<url>scm:git:git@github.com:SathishKr/git-demo.git</url>
 		<developerConnection>scm:git:git@github.com:SathishKr/git-demo.git</developerConnection>
-	  <tag>HelloWorld-1.0</tag>
-  </scm>
+		<tag>HelloWorld-1.0</tag>
+	</scm>
 	<build>
 		<plugins>
 			<plugin>
@@ -29,4 +29,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>myrepository</id>
+			<url>file:D:/DevArea/JavaWork/maven/Repo</url>
+		</repository>
+	</distributionManagement>
 </project>

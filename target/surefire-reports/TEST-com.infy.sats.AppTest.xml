@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0" errors="0" skipped="0" tests="1" name="com.infy.sats.AppTest">
+<testsuite failures="0" time="0.005" errors="0" skipped="0" tests="1" name="com.infy.sats.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
     <property name="java.vm.version" value="24.51-b03"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="D:\DevArea\JavaWork\maven\HelloWorld"/>
-    <property name="maven.javadoc.skip" value="true"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -34,21 +33,19 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="maven.repo.local" value="C:\Users\sathish_krishnan\.m2\repository"/>
     <property name="os.version" value="6.2"/>
     <property name="user.home" value="C:\Users\sathish_krishnan"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="password" value="sweety143"/>
     <property name="user.name" value="Sathish_Krishnan"/>
     <property name="java.class.path" value="D:\Maven\boot\plexus-classworlds-2.5.2.jar"/>
-    <property name="username" value="sathishkr"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="c:\Program Files\Java\jdk1.7.0_51\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher release:perform -Dmaven.javadoc.skip=true verify -Dusername=sathishkr -Dpassword=sweety143 -Darguments=-Dmaven.javadoc.failOnError=false"/>
-    <property name="arguments" value="-Dmaven.javadoc.failOnError=false"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=C:\Users\sathish_krishnan\.m2\repository -s C:\Users\sathish_krishnan\AppData\Local\Temp\release-settings2933878120210253653.xml -P nexus clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0" classname="com.infy.sats.AppTest" name="testApp"/>
+  <testcase time="0.005" classname="com.infy.sats.AppTest" name="testApp"/>
 </testsuite>
